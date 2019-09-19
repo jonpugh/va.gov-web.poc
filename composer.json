@@ -1,0 +1,20 @@
+{
+    "name": "va-gov/web",
+    "description": "VA.gov Front-end Site Builder",
+    "type": "metapackage",
+    "require": {},
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "va-gov/web",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/department-of-veterans-affairs/vets-website",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ]
+}
